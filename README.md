@@ -62,10 +62,6 @@ claude --dangerously-skip-permissions
 
 ## 💡 為什麼我做這個？（設計初衷）
 
-### 我是誰
-
-我是 **Hans Lin（林思翰）**，在 [Group.G](https://groupg.cc) 擔任文化科技導演與 AI 導演。我們是一家台灣的動畫公司，服務過台積電、Samsung、LINE、ASUS 等品牌。
-
 ### 起因：我想讓 AI 幫我工作，但我需要睡覺
 
 2025 年底，我開始大量使用 Claude Code 來開發專案。它非常強大，但有一個困擾：
@@ -402,11 +398,6 @@ MIT License - 自由使用、修改、分享
 ## 👤 作者
 
 **Hans Lin 林思翰**
-
-- 🎬 [Group.G](https://groupg.cc) 文化科技導演 / AI 導演
-- 🎓 實踐大學兼任客座助理教授
-- 🏆 金點設計獎、iF Design Award 得主
-- 💼 服務客戶：台積電、Samsung、LINE、ASUS
 
 ### 聯絡方式
 
